@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoBlog – Consejos y Noticias sobre Sostenibilidad</title>
+    <link rel="stylesheet" href="actividad8.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">EcoBlog</div>
+            <h1 class="title">Consejos y Noticias sobre Sostenibilidad</h1>
+            <button class="menu-toggle">☰ Menú</button>
+        </div>
+    </header>
+
+    
+    <div class="container main-container">
+        
+        <aside class="menu">
+            <nav>
+                <ul class="menu-list">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Consejos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Instagram</a>
+            </div>
+        </aside>
+
+        
+        <main class="content">
+            
+            <section class="noticia-destacada">
+                <h2 class="section-title">Noticias Destacadas</h2>
+                <article class="noticia">
+                    <picture>
+                        <source srcset="noticia-small.jpg" media="(max-width: 768px)">
+                        <img src="noticia-large.jpg" alt="Noticia destacada" class="noticia-img">
+                    </picture>
+                    <h3 class="noticia-title">Título de la noticia</h3>
+                    <p class="noticia-desc">Un breve párrafo introductorio sobre la noticia destacada.</p>
+                </article>
+            </section>
+
+            
+            <section class="consejos-rapidos">
+                <h2 class="section-title">Consejos Rápidos</h2>
+                <div class="consejos-grid">
+                    <div class="consejo">
+                        <img src="consejo1.jpg" alt="Consejo 1" class="consejo-img">
+                        <h3 class="consejo-title">Consejo 1</h3>
+                    </div>
+                    <div class="consejo">
+                        <img src="consejo2.jpg" alt="Consejo 2" class="consejo-img">
+                        <h3 class="consejo-title">Consejo 2</h3>
+                    </div>
+                    <div class="consejo">
+                        <img src="consejo3.jpg" alt="Consejo 3" class="consejo-img">
+                        <h3 class="consejo-title">Consejo 3</h3>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>© 2023 EcoBlog. Todos los derechos reservados.</p>
+            <a href="#" class="footer-link">Política de privacidad</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

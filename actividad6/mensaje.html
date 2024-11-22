@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensajes</title>
+    <link rel="stylesheet" href="mensajes.css">
+</head>
+<body>
+    <div class="messages-container">
+       
+        <header class="messages-header">
+            <h1>Mensajes</h1>
+            <p>Conéctate con tus amigos y familiares</p>
+        </header>
+
+        
+        <section class="conversation-list">
+            <h2>Conversaciones</h2>
+            <ul>
+                <li class="conversation">
+                    <div class="sender-info">
+                        <img src="user1.jpg" alt="Usuario 1" class="user-photo">
+                        <div class="sender-details">
+                            <span class="sender-name">Amigo 1</span>
+                            <span class="message-preview">¿Nos vemos mañana?</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="conversation">
+                    <div class="sender-info">
+                        <img src="user2.jpg" alt="Usuario 2" class="user-photo">
+                        <div class="sender-details">
+                            <span class="sender-name">Amigo 2</span>
+                            <span class="message-preview">¡Hola! ¿Cómo estás?</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="conversation">
+                    <div class="sender-info">
+                        <img src="user3.jpg" alt="Usuario 3" class="user-photo">
+                        <div class="sender-details">
+                            <span class="sender-name">Amigo 3</span>
+                            <span class="message-preview">Reunión a las 3 PM.</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        
+        <section class="send-message">
+            <h2>Enviar Mensaje</h2>
+            <form>
+                <label for="recipient">A:</label>
+                <input type="text" id="recipient" name="recipient" placeholder="Nombre del destinatario" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                <button type="submit" class="btn">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        
+        <footer class="footer-nav">
+            <nav>
+                <a href="actividad6.html">Inicio</a>
+                <a href="miperfil.html">Perfil</a>
+                <a href="configuracion.html">Configuración</a>
+                <a href="mensajes.html">Mensajes</a>
+                <a href="amigos.html">Amigos</a>
+            </nav>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+p:hover{
+    color: blue;
+    font-family: fantasy;
+    text-align: end;
+
+}
+p{
+    font-family: fantasy;
+}
+h1:hover{
+    color: coral;
+    font-family: fantasy;
+    text-align: center;
+}
+h1::before{
+    content: 'holaaaa';
+    font-weight: bold;
+}
+article>p{
+    color:tomato;
+    font-size: 15px;
+}

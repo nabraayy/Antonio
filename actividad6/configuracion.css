@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.settings-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.settings-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #00796b;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.settings-header h1 {
+    font-size: 24px;
+}
+
+.settings-header p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 20px;
+    color: #00796b;
+    margin-bottom: 15px;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #00796b;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #004d40;
+}
+
+
+.footer-nav {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #00796b;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer-nav nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+    opacity: 0.8;
+}
+
+.footer-nav nav a:hover {
+    opacity: 1;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Amigos</title>
+    <link rel="stylesheet" href="amigos.css">
+</head>
+<body>
+    <div class="friends-container">
+        
+        <header class="friends-header">
+            <h1>Mis Amigos</h1>
+            <p>Gestiona y conecta con tus amigos</p>
+        </header>
+
+        
+        <section class="search-friends">
+            <h2>Buscar Amigos</h2>
+            <form>
+                <input type="text" placeholder="Buscar por nombre..." required>
+                <button type="submit" class="btn">Buscar</button>
+            </form>
+        </section>
+
+        
+        <section class="friends-list">
+            <h2>Lista de Amigos</h2>
+            <ul class="friend-item-list">
+                <li class="friend-item">
+                    <div class="friend-avatar">
+                        <img src="avatar1.jpg" alt="Avatar Juan Pérez">
+                    </div>
+                    <div class="friend-details">
+                        <h3>Juan Pérez</h3>
+                        <p>Último visto: Hace 2 horas</p>
+                    </div>
+                    <button class="btn remove-friend">Eliminar</button>
+                </li>
+                <li class="friend-item">
+                    <div class="friend-avatar">
+                        <img src="avatar2.jpg" alt="Avatar María López">
+                    </div>
+                    <div class="friend-details">
+                        <h3>María López</h3>
+                        <p>Último visto: Hace 1 día</p>
+                    </div>
+                    <button class="btn remove-friend">Eliminar</button>
+                </li>
+                <li class="friend-item">
+                    <div class="friend-avatar">
+                        <img src="avatar3.jpg" alt="Avatar Carlos Gómez">
+                    </div>
+                    <div class="friend-details">
+                        <h3>Carlos Gómez</h3>
+                        <p>Último visto: Hace 3 días</p>
+                    </div>
+                    <button class="btn remove-friend">Eliminar</button>
+                </li>
+                
+            </ul>
+        </section>
+
+        
+        <footer class="footer-nav">
+            <nav>
+                <a href="actividad6.html">Inicio</a>
+                <a href="miperfil.html">Perfil</a>
+                <a href="configuracion.html">Configuración</a>
+                <a href="mensajes.html">Mensajes</a>
+                <a href="amigos.html">Amigos</a>
+            </nav>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

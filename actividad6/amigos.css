@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.friends-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.friends-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #00796b;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.friends-header h1 {
+    font-size: 24px;
+}
+
+.friends-header p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+.search-friends {
+    margin: 20px 0;
+}
+
+.search-friends h2 {
+    font-size: 20px;
+    color: #00796b;
+}
+
+.search-friends form {
+    display: flex;
+}
+
+.search-friends input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-friends button {
+    padding: 10px;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-friends button:hover {
+    background-color: #004d40;
+}
+
+
+.friends-list {
+    margin-top: 20px;
+}
+
+.friends-list h2 {
+    font-size: 20px;
+    color: #00796b;
+    margin-bottom: 15px;
+}
+
+.friend-item-list {
+    list-style: none;
+    padding: 0;
+}
+
+.friend-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.friend-avatar {
+    margin-right: 10px;
+}
+
+.friend-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.friend-details h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.friend-details p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.remove-friend {
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-friend:hover {
+    background-color: #c62828;
+}
+
+
+.footer-nav {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #00796b;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer-nav nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+    opacity: 0.8;
+}
+
+.footer-nav nav a:hover {
+    opacity: 1;
+}

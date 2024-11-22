@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad 2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="hijo hijo1">
+            <h1>Hijo 1</h1>
+        </div>
+        <div class="hijo hijo2">
+            <h1>hijo 2</h1>
+        </div>
+        <div class="hijo hijo3">
+            <h1>hijo 3</h1>
+        </div>
+    </div>
+</body>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 100vh;
+    }
+    .hijo{
+        display: grid;
+        text-align: center;
+        font-family: cursive;
+        grid-area: inherit;
+        align-items: center;
+    }
+    .hijo1{
+        background-color: lightblue;
+        border:solid;
+        border-color: black;
+    }
+    .hijo2{
+        background-color: lightgreen;
+        border: solid;
+        border-color: black;
+    }
+    .hijo3{
+        background-color: lightsalmon;
+        border: solid;
+        border-color: black;
+    }
+</style>

@@ -1,0 +1,142 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header {
+    background: #00796b;
+    color: white;
+    padding: 20px 0;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.title {
+    font-size: 1.25rem;
+}
+.menu-toggle {
+    display: none;
+    font-size: 1.2rem;
+    background: #004d40;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Menú Lateral */
+.menu {
+    flex: 0 0 25%;
+    background: #004d40;
+    color: white;
+    padding: 20px;
+}
+.menu-list {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.menu-list a {
+    text-decoration: none;
+    color: #b2dfdb;
+    display: block;
+    padding: 5px 0;
+}
+.social-media .social-link {
+    display: inline-block;
+    color: #80cbc4;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Contenido Principal */
+.content {
+    flex: 0 0 75%;
+    padding: 20px;
+}
+.section-title {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #00796b;
+}
+.noticia {
+    margin-bottom: 20px;
+}
+.noticia-img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.consejos-grid {
+    display: flex;
+    gap: 20px;
+}
+.consejo {
+    text-align: center;
+    flex: 1;
+}
+.consejo-img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Pie de Página */
+.footer {
+    background: #00796b;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-link {
+    color: #b2dfdb;
+    text-decoration: none;
+}
+
+/* Adaptaciones para móviles */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .content {
+        flex: 1 0 100%;
+    }
+    .consejos-grid {
+        flex-direction: column;
+    }
+}
+
+/* Adaptaciones para tabletas */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .menu {
+        flex: 0 0 33%;
+    }
+    .content {
+        flex: 0 0 67%;
+    }
+}

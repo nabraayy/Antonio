@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Selección de Curso</title>
+    <link rel="stylesheet" href="actividad3.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Selecciona tu Curso</h1>
+        <form id="courseForm">
+            <label for="course">Curso:</label>
+            <select id="course" name="course" required>
+                <option value="" disabled selected>Selecciona un curso</option>
+                <option value="ASIX">ASIX</option>
+                <option value="DAM">DAM</option>
+                <option value="DAW">DAW</option>
+            </select>
+
+            <label for="comments">Comentarios Adicionales:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('courseForm').onsubmit = function(event) {
+            event.preventDefault();
+            alert("Formulario enviado con éxito!");
+            
+        };
+    </script>
+</body>
+</html>
